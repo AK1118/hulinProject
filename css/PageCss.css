@@ -7,7 +7,13 @@
     padding: 0;
     min-height: 0.1px;
 }
-
+.showFloatLayerBtn{
+	    cursor: pointer;
+	    background: url(../img/phoneMenu.png) no-repeat !important;
+	    width: 1.563rem;
+	    height: 1.563rem;
+	    background-size: 100%;
+}
 .ModuleGridGiant.layout-101 .row {
     margin-right: 0px;
     margin-left: 0px;
