@@ -1,0 +1,25 @@
+@media only screen and (min-width: 979px){
+	.module-search-mobile{display: none;}
+}
+
+.module-search-mobile{position: fixed;top: 0;bottom: 0;width: 100%;padding: 8px 0;background: #fff;z-index: 99999;right: -979px;opacity: 0;}
+.module-search-mobile .search-mobile-header{height: 33px; display: flex; display: -webkit-flex; align-items: center;padding: 0px 0.75rem 0px 0.75rem;}
+.module-search-mobile .search-mobile-header .search-mobile-back{margin-right: 1.1rem;margin-top: 4px;}
+.module-search-mobile .search-mobile-header .search-mobile-back i{font-size: 18px;}
+.module-search-mobile .search-mobile-header .search-mobile-button{margin-left: 1.3rem;height: 33px; line-height: 33px;cursor: pointer; }
+.module-search-mobile .search-mobile-header .search-mobile-input{flex: 1;background-color: #eee;border-radius: 5px;display: flex; align-items: center;}
+.module-search-mobile .search-mobile-header .search-mobile-input input{background-color: #eee;height: 33px;border-radius: 5px; width: 100%;font-size: 14px; color: #333;font-family: 'Microsoft YaHei';}
+.module-search-mobile .search-mobile-header .search-mobile-input input.keyword-input{padding-left: 17px;}
+.module-search-mobile .search-mobile-button .search-mobile-submit{font-size: 14px; font-family: 'Microsoft YaHei'; color: #666;}
+
+.module-search-mobile .search-mobile-hotkey{padding: 15px 0.75rem 0px 0.75rem; border-top: 1px solid #eee; margin-top: 10px;}
+.module-search-mobile .search-mobile-hotkey .search-hotkey-title{font-size: 14px; font-family: 'Microsoft YaHei'; color: #999; margin-bottom: 15px;}
+.module-search-mobile .search-mobile-hotkey ul .search-hotkey-item{display: inline-block;border: 1px solid #eee;padding: 8px 15px;border-radius: 10px;margin-right: 10px;margin-bottom: 14px;}
+.module-search-mobile .search-mobile-hotkey ul .search-hotkey-item a{font-size: 12px; font-family: 'Microsoft YaHei'; color: #333;}
+.module-search-mobile .search-type-list.bootstrap-select .btn{border: none!important; background: transparent; color: #666; font-size: 14px; height: 33px!important;line-height: 33px!important; outline: none!important;padding-top: 1px!important;}
+.module-search-mobile .search-type-list.bootstrap-select .btn span.caret{margin-top: -3px;}
+.search-select-mobile-dropdown-container .bootstrap-select.btn-group .dropdown-menu{z-index: 99999; background-color: #fff;}
+.search-select-mobile-dropdown-container .bootstrap-select.btn-group .dropdown-menu li{border-bottom: 1px solid #ccc;}
+.search-select-mobile-dropdown-container .bootstrap-select.btn-group .dropdown-menu li:last-child{border-bottom:0;}
+.module-search-mobile .search-mobile-header .search-mobile-input input:focus{outline: none;}
+.module-search-mobile .bootstrap-select.btn-group.fit-width .dropdown-toggle .filter-option{line-height: 33px;font-size: 14px;}
